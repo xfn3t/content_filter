@@ -32,6 +32,18 @@ public class FilterService {
         this.statisticRuntime = statisticRuntime;
     }
 
+    public String getFilenameString() {
+        return filenameString;
+    }
+
+    public String getFilenameInteger() {
+        return filenameInteger;
+    }
+
+    public String getFilenameFloat() {
+        return filenameFloat;
+    }
+
     public void setPrefix(String prefix) {
         this.prefix = prefix;
         this.filenameString = prefix + this.filenameString;
